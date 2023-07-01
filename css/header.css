@@ -2,12 +2,15 @@
     background-color: var(--bg-primary-color);
 }
 
-.navbar-brand img {
+.header-container .navbar-brand img {
     width: 65px;
     margin-left: .3rem;
 }
 
-.navbar-toggler {
-    color: #fff;
+.header-container .navbar-toggler {
     border: none;
+}
+
+.header-container .navbar-toggler i {
+    color: #fff;
 }
