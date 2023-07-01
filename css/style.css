@@ -1,0 +1,14 @@
+@import url("./header.css");
+
+/* Variables */
+:root {
+    --bg-primary-color: #353D41;
+    --primary-color: #444;
+}
+
+/* General Styles */
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    font-size: 1rem;
+}

@@ -1,0 +1,13 @@
+.header-container {
+    background-color: var(--bg-primary-color);
+}
+
+.navbar-brand img {
+    width: 65px;
+    margin-left: .3rem;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border: none;
+}
