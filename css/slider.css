@@ -1,0 +1,44 @@
+.slider-container .carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.slider-container .carousel-caption {
+    top: 25%;
+}
+
+.slider-container .carousel-caption h2 {
+    font-weight: 400;
+}
+
+.slider-container .carousel-caption p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn-slider {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .875rem;
+    padding: .5rem 1rem;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.btn-slider:hover {
+    background-color: transparent;
+    border-color: var(--secondary-color);
+}
+
+.carousel-indicators .active {
+    background-color: var(--secondary-color);
+}
+
+
+@media(min-width: 768px) {
+    .slider-container .carousel-caption {
+        top: 30%;
+    }
+}
