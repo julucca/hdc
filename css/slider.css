@@ -1,14 +1,15 @@
 .slider-container .carousel-item img {
-    height: 80vh;
+    height: 41rem;
     object-fit: cover;
 }
 
 .slider-container .carousel-caption {
-    top: 25%;
-}
-
-.slider-container .carousel-caption h2 {
-    font-weight: 400;
+    height: 41rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
 }
 
 .slider-container .carousel-caption p {
@@ -34,11 +35,4 @@
 
 .carousel-indicators .active {
     background-color: var(--secondary-color);
-}
-
-
-@media(min-width: 768px) {
-    .slider-container .carousel-caption {
-        top: 30%;
-    }
 }
