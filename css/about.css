@@ -1,0 +1,12 @@
+.about-container {
+    background-color: var(--bg-secondary-color);
+}
+
+.about-container li {
+    line-height: 1.8rem;
+}
+
+.about-container i {
+    color: var(--secondary-color);
+    margin-right: .75rem;
+}

@@ -1,0 +1,42 @@
+@import url("./header.css");
+@import url("./slider.css");
+@import url("./about.css");
+
+/* Variables */
+:root {
+    --bg-primary-color: #353D41;
+    --bg-secondary-color: #F9F9F9;
+    --primary-color: #444;
+    --secondary-color: #65DAF9;
+
+    --font: 'Roboto', sans-serif;
+}
+
+/* General Styles */
+* {
+    font-family: var(--font);
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.global-title {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.global-title::after {
+    content: "";
+    display: block;
+    width: 15%;
+    border-bottom: 2.5px solid var(--primary-color);
+    padding-top: .5rem;
+    margin-inline: auto;
+}
+
+@media(min-width: 768px) {
+    .global-subtitle {
+        margin-bottom: 2rem;
+    }
+}
