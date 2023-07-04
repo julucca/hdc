@@ -1,0 +1,13 @@
+.services-link {
+    color: var(--bg-primary-color);
+    text-decoration: none;
+}
+
+.services-link i {
+    font-size: 2rem;
+}
+
+.services-link:hover>i,
+.services-link:hover>h4 {
+    color: var(--secondary-color);
+}
