@@ -1,0 +1,53 @@
+.data-container {
+    padding: 5rem;
+    background-image: url('../img/data-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.data-container .container {
+    max-width: 17.5rem;
+}
+
+.circle-box div {
+    padding-inline: 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.data-container p {
+    color: #FFF;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+@media(min-width: 576px) {
+    .data-container .container {
+        max-width: 78rem;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .circle-box div {
+        padding-inline: 20px;
+    }
+
+    .progressbar-text {
+        font-size: 1.75rem;
+    }
+
+    .data-container p {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .data-container p {
+        margin-bottom: 0;
+    }
+}
