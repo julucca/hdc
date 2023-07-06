@@ -1,0 +1,10 @@
+.team-container {
+    max-width: 19rem;
+    margin-inline: auto;
+}
+
+@media(min-width: 576px) {
+    .team-container {
+        max-width: 78rem;
+    }
+}
