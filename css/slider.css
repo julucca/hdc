@@ -19,13 +19,7 @@
 
 .btn-slider {
     background-color: var(--secondary-color);
-    border-radius: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: .875rem;
-    padding: .5rem 1rem;
     border: 3px solid transparent;
-    transition: .5s;
 }
 
 .btn-slider:hover {

@@ -1,0 +1,31 @@
+.apply-container div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.apply-img {
+    background-image: url('../img/apply.jpg');
+}
+
+.apply-content {
+    background-image: url('../img/apply-bg.png');
+    background-attachment: fixed;
+    padding: 8rem 4rem 7.5rem;
+}
+
+.apply-container h4,
+.apply-content p {
+    color: #FFF;
+}
+
+.btn-apply {
+    border: 3px solid #FFF;
+    width: 9.5rem;
+}
+
+.btn-apply:hover {
+    background-color: var(--secondary-color);
+    border-color: transparent;
+    color: #FFF;
+}

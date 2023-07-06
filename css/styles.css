@@ -4,6 +4,7 @@
 @import url("./services.css");
 @import url("./data.css");
 @import url("./team.css");
+@import url("./apply.css");
 
 /* Variables */
 :root {
@@ -15,7 +16,7 @@
     --font: 'Roboto', sans-serif;
 }
 
-/* General Styles */
+/* Global Styles */
 * {
     font-family: var(--font);
     color: var(--primary-color);
@@ -36,6 +37,15 @@
     border-bottom: 2.5px solid var(--primary-color);
     padding-top: .5rem;
     margin-inline: auto;
+}
+
+.global-btn {
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .875rem;
+    padding: .5rem 1rem;
+    transition: .5s;
 }
 
 @media(min-width: 768px) {
