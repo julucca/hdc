@@ -1,0 +1,21 @@
+.cta-container {
+    background-color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cta-container p {
+    color: #FFF;
+}
+
+.cta-btn {
+    background-color: #FFF;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.cta-btn:hover {
+    color: #FFF;
+    border: 3px solid #FFF;
+}

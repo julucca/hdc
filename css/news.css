@@ -1,0 +1,21 @@
+.news-container {
+    background-color: var(--bg-secondary-color);
+}
+
+.news-form {
+    display: flex;
+    justify-content: center;
+}
+
+.news-input {
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding-left: 1rem;
+    min-width: 40vw;
+}
+
+.news-btn:hover {
+    background-color: #FFF;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
