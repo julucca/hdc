@@ -19,12 +19,14 @@
     color: #FFF;
 }
 
-.btn-apply {
+.apply-btn {
     border: 3px solid #FFF;
     width: 9.5rem;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.btn-apply:hover {
+.apply-btn:hover {
     background-color: var(--secondary-color);
     border-color: transparent;
     color: #FFF;

@@ -1,0 +1,21 @@
+.ptf-container img {
+    width: 100%;
+}
+
+.ptf-btn {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    text-transform: none;
+    margin-inline: 1rem;
+    margin-bottom: 2rem;
+    min-width: 6.25rem;
+    width: auto;
+}
+
+.ptf-filters .active,
+.ptf-btn:hover {
+    background-color: var(--secondary-color);
+    color: #FFF;
+    border-color: var(--secondary-color);
+}

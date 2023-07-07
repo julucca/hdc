@@ -17,12 +17,14 @@
     font-weight: 300;
 }
 
-.btn-slider {
+.slider-btn {
     background-color: var(--secondary-color);
     border: 3px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.btn-slider:hover {
+.slider-btn:hover {
     background-color: transparent;
     border-color: var(--secondary-color);
 }

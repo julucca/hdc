@@ -5,6 +5,7 @@
 @import url("./data.css");
 @import url("./team.css");
 @import url("./apply.css");
+@import url("./ptf.css");
 
 /* Variables */
 :root {
@@ -41,8 +42,6 @@
 
 .global-btn {
     border-radius: 20px;
-    color: #fff;
-    text-transform: uppercase;
     font-size: .875rem;
     padding: .5rem 1rem;
     transition: .5s;
