@@ -10,3 +10,9 @@
     color: var(--secondary-color);
     margin-right: .75rem;
 }
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .about-container img {
+        margin-top: 6.5rem;
+    }
+}
