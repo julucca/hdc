@@ -1,5 +1,5 @@
 .data-container {
-    padding: 5rem;
+    padding: 5rem 2rem;
     background-image: url('../img/data-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,25 +10,37 @@
     max-width: 17.5rem;
 }
 
-.circle-box div {
-    padding-inline: 40px;
-}
-
 .progressbar-text {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .data-container p {
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-top: 1.25rem;
     margin-bottom: 2rem;
 }
 
 @media(min-width: 576px) {
+    .data-container {
+        padding: 5rem;
+    }
+
     .data-container .container {
         max-width: 78rem;
+    }
+
+    .circle-box div {
+        padding-inline: 40px;
+    }
+
+    .progressbar-text {
+        font-size: 2rem;
+    }
+
+    .data-container p {
+        font-size: 1.25rem;
     }
 }
 

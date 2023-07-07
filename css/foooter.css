@@ -1,7 +1,5 @@
 .contact-item {
     padding-bottom: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid var(--secondary-color);
 }
 
 .contact-item i {
@@ -43,4 +41,12 @@
 
 .copy-container a:hover {
     color: var(--secondary-color);
+}
+
+@media(min-width: 576px) {
+    .contact-item {
+        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid var(--secondary-color);
+    }
 }
