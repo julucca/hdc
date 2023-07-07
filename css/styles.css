@@ -8,6 +8,7 @@
 @import url("./ptf.css");
 @import url("./news.css");
 @import url("./cta.css");
+@import url("./foooter.css");
 
 /* Variables */
 :root {
@@ -53,52 +54,4 @@
     .global-subtitle {
         margin-bottom: 2rem;
     }
-}
-
-/* Contact */
-.contact-item {
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid var(--secondary-color);
-}
-
-.contact-item i {
-    font-size: 1.5rem;
-    border: 1px solid var(--primary-color);
-    border-radius: 50%;
-    padding: .55rem .75rem;
-}
-
-.contact-title {
-    color: var(--secondary-color);
-    font-weight: 700;
-}
-
-.contact-form input,
-.contact-form textarea {
-    border-radius: 0;
-}
-
-.contact-form .btn {
-    width: 7.5rem;
-}
-
-.contact-form .btn:hover {
-    color: var(--secondary-color);
-}
-
-.copy-container {
-    background-color: #F1F1F1;
-    padding: .75rem 0;
-    text-align: center;
-}
-
-.copy-container a {
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-.copy-container a:hover {
-    color: var(--secondary-color);
 }
