@@ -1,5 +1,6 @@
 .team-container {
     padding-inline: 1rem;
+    margin-inline: auto;
 }
 
 @media(min-width: 576px) {

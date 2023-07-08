@@ -154,7 +154,7 @@ $(document).ready(function () {
       {
         scrollTop: $(scrollTo).offset().top - 70,
       },
-      1500
+      100
     );
   });
 });
