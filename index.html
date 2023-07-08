@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <header class="header-container">
-        <nav class="navbar navbar-expand-md sticky-top navbar-dark">
+    <header class="header-container sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid container-xl">
                 <a href="#" class="navbar-brand">
                     <img src="./img/logo.svg" alt="Logo">
@@ -34,22 +34,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <ul class="navbar-nav gap-3">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            <a href="#" class="nav-link" aria-current="page" id="home-menu">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">A agência</a>
+                            <a class="nav-link" id="about-menu" href="#">A agência</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Serviços</a>
+                            <a href="#" class="nav-link" id="services-menu">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Time</a>
+                            <a href="#" class="nav-link" id="team-menu">Time</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Projetos</a>
+                            <a href="#" class="nav-link" id="portfolio-menu">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contato</a>
+                            <a href="#" class="nav-link" id="contact-menu">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -106,7 +106,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about-container">
+        <section class="about-container" id="about-area">
             <div class="container py-5">
                 <div class="row mb-3">
                     <div class="col">
@@ -138,7 +138,7 @@
         </section>
 
         <!-- Services Section -->
-        <section>
+        <section id="services-area">
             <div class="container py-5 text-center">
                 <div class="row mb-3">
                     <div class="col">
@@ -225,7 +225,7 @@
         </section>
 
         <!-- Team Section -->
-        <section class="team-container">
+        <section class="team-container" id="team-area">
             <div class="container py-5 text-center">
                 <div class="row mb-3">
                     <div class="col">
@@ -291,7 +291,7 @@
         </section>
 
         <!-- Portfolio Section -->
-        <section class="ptf-container">
+        <section class="ptf-container" id="portfolio-area">
             <div class="container py-5 text-center">
                 <div class="row mb-3">
                     <div class="col">
@@ -355,7 +355,7 @@
     </main>
 
     <footer>
-        <section>
+        <section id="contact-area">
             <div class="container py-5 text-center">
                 <div class="row mb-3">
                     <div class="col">
