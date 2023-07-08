@@ -5,7 +5,7 @@ A hDC é uma agência de comunicaçao fictícia. Este projeto foi desenvolvido c
 O objetivo com este projeto foi desenvolver um aplicação do zero e responsiva utilizando o framework Bootstrap.
 
 <div align="center">
-	<img width=600px src="./img/screen-hdc-1.jpg">
+	<img width=600px src="./img/screen-hdc-1.gif">
 </div><br>
 
 ## 👩‍💻 Tecnologias utilizadas
